@@ -387,6 +387,9 @@ h3{
 	padding: 10px;
 	margin: 10px;
 }
+.car-brand-card p{
+	padding: 10px 20px;
+}
 	.contact {
 		background: #2a2d54;
 	}
@@ -1294,7 +1297,7 @@ max-width: 532px;
 
 .section-header{
 	text-align: center;
-	text size: 20;
+	text-size-adjust: 20;
 }
 
 
