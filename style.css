@@ -1499,3 +1499,122 @@ body{
   .read-more-container.active .collapse-btn {
 	display:inline;
   }
+
+  /*-------------------videos section----------------*/
+.video-slider {
+    padding: 0 0 0 0;
+    width: 100%;
+	right: 5px!important;
+    border-radius: 2px;font-size: 15px;
+    text-align: left;
+    margin: 5px 0 2px 0;
+    color: #272222;
+    padding: 0 5px;
+    line-height: 19px;
+    min-height: 38px;
+	font-size: 13px;
+    text-align: left;
+    margin: 0 0 4px 0;
+    color: #969696;
+    padding: 0 5px 8px 5px;
+    line-height: 17px;
+    display: flex;
+	box-shadow: 0 0 3px #00000029;
+    padding: 0 0;
+    margin: 0 5px;
+    background: #fff;
+    width: 234px;
+	min-height: 241px;
+    object-fit: contain;height: 156px;
+
+}
+.mob-pad-col {
+	padding: 0 7px 0 7px
+}
+.margin_top_15 {
+    margin-top: 15px!important
+}
+.margin_bottom_5 {
+    margin-bottom: 5px!important
+}
+.carousel-wrap{
+	min-height: 203px;
+    object-fit: contain;
+	display: flex;
+	min-height: 241px;
+    object-fit: contain;
+
+}
+.tab-slider-height {
+    min-height: 241px;
+    object-fit: contain
+}
+.owl-carousel {
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.75);
+    color: #c9c9c9;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+    padding: 7px 5px;
+    height: auto;
+	right: 5px;
+    border-radius: 2px;
+	left: 5px;
+    border-radius: 2px
+}
+.owl-loaded {
+    display: block
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0)
+}
+
+.owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden
+}
+.owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+.carousel-p {
+    font-size: 15px;
+    text-align: left;
+    margin: 5px 0 2px 0;
+    color: #272222;
+    padding: 0 5px;
+    line-height: 19px;
+    min-height: 38px
+}
+.item {
+    
+    padding: 5px 0;
+    margin: 0 5px;
+    background: #fff
+}
+.item img {
+    height: 148px
+}
